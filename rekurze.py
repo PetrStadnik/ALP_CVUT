@@ -7,7 +7,7 @@ def count(a, b, w="decrease"): # w rozhoduje jestli se bude přičítat, nebo od
         print(a)
         if a != ai: #5 dokud se nerovná původně zadanému a, které jsme označlili jako ai
             count(a, b, "increase")
-    else: #1 odečítá a vypisuje a
+    else: #1 vypisuje a
         print(a)
         if 0 > a - b: #3 dokud by se nesalo, že by to po odečnení bylo menší než 0, pak nastaví w na přičítání
             count(a, b, "increase")
